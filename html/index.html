@@ -1,0 +1,92 @@
+
+<!DOCTYPE HTML><!---->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">  
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+<title></title>
+<style>
+@charset "utf-8";
+body, h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,pre,form,
+fieldset,legend,button,input,textarea,{margin: 0;padding: 0;}
+body,button, input, select, textarea{font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: courier new, courier, monospace; }
+small { font-size: 12px;}
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+legend { color: #000; }
+fieldset, img { border: 0; }
+button, input, select, textarea { font-size: 100%; }
+table { border-collapse: collapse; border-spacing: 0; }
+.ct{margin: 0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+.cf:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.cf{*zoom:1;}
+.db{display: block;}
+.dn{display: none;}
+/*<a href="__CLICK__"></a>/
+/********************************初始化*************************************/
+.wrap{overflow: hidden;max-width: 640px;padding-top:115px;background-color: #000;}
+.img100{width: 100%;display: block;}
+.fix{position: fixed;left: 0;top: 0;width: 100%;z-index: 10;}
+.p{text-align: center;padding: 15px 0;}
+</style>    
+</head>
+<body>
+
+<div class="fix">
+   <a href="__CLICK__"><img src="images/top.png" alt="" class="img100"></a>
+</div>
+
+<div class="wrap ct">
+
+
+
+<div>
+   <a href="__CLICK__"> <img src="images/1.jpg" alt="" class="img100"></a>
+</div>
+<div>
+   <a href="__CLICK__"> <img src="images/2.jpg" alt="" class="img100"></a>
+</div>
+<div>
+    <a href="__CLICK__"> <img src="images/3.jpg" alt="" class="img100"></a>
+</div>
+<div>
+    <a href="__CLICK__"> <img src="images/4.jpg" alt="" class="img100"></a>
+</div>
+
+
+
+
+
+</div>
+
+
+<script>
+//
+//跳动文字
+//蜀山仙魔录手游｜3D仙侠强PK｜装备能卖钱｜
+//戮仙破天手游｜赚钱的游戏｜可交易强PK｜
+//最佳阵容｜足球竞技手游｜大牌球星随心选｜
+ step=0
+ function flash_title()
+ {
+  step++
+  if (step==3) {step=1}         
+  if (step==1) {document.title='蜀山仙魔录手游'}
+  if (step==2) {document.title='3D仙侠强PK，装备能卖钱'}
+  setTimeout("flash_title()",380);
+ }
+ flash_title();
+//
+
+
+
+</script>
+</body>
+</html>
